@@ -1,10 +1,27 @@
- # DevMetrics
+# SecurePass - Password Generator
 
-A sleek, dark-themed GitHub Profile Analyzer built using HTML5, CSS3, and modern async JavaScript. It communicates directly with the official GitHub API to fetch real-time developer statistics.
+A clean, beginner-friendly Python script that generates customizable, secure random passwords based on user preferences.
 
-## Tech Stack
-- Frontend: Semantic HTML5, Flexbox layout, Custom CSS properties
-- Integration: GitHub REST API via native fetch architecture
+## Features
+- Adjustable password length
+- Toggle options for numbers and special characters
+- Error handling for invalid inputs
+- Built entirely using native Python standard libraries
 
-## Deployment
-Open the `index.html` file in any modern browser to use the tool.
+## How to Run
+Ensure you have Python installed, then run the script via terminal:
+```bash
+python generator.py
+```
+
+## Example Output
+```text
+--- 🔐 Welcome to SecurePass Generator ---
+Enter password length (default 12): 14
+Include numbers? (y/n, default y): y
+Include symbols? (y/n, default y): y
+
+==============================
+Generated Password: fK9!pX_2m#qL8\$
+==============================
+```
